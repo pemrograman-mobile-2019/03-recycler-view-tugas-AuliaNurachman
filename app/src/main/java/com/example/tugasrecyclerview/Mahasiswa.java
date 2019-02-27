@@ -1,37 +1,30 @@
 package com.example.tugasrecyclerview;
 
 public class Mahasiswa {
-    private String nama;
-    private String npm;
-    private String nohp;
+    private String merk;
+    private String type;
 
-    public Mahasiswa(String nama, String npm, String nohp) {
-        this.nama = nama;
-        this.npm = npm;
-        this.nohp = nohp;
+
+    public Mahasiswa(String merk, String type) {
+        this.merk = merk;
+        this.type = type;
+
     }
 
-    public String getNama() {
-        return nama;
+    public String getMerk() {
+        return merk;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setMerk(String merk) {
+        this.merk = merk;
     }
 
-    public String getNpm() {
-        return npm;
+    public String getType() {
+        return type;
     }
 
-    public void setNpm(String npm) {
-        this.npm = npm;
+    public void setType(String type) {
+        this.type = type;
     }
 
-    public String getNohp() {
-        return nohp;
-    }
-
-    public void setNohp(String nohp) {
-        this.nohp = nohp;
-    }
 }
