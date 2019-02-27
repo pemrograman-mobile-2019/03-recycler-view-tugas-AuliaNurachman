@@ -14,6 +14,11 @@
         android:orientation="vertical"
         android:padding="5dp">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="294dp"
+            android:src="@drawable/asusu"
+            />
         <!-- TextView Nama Mahasiwa -->
         <TextView
             android:id="@+id/txt_merk_mahasiswa"
